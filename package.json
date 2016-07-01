@@ -1,0 +1,27 @@
+{
+  "name": "miles-of-paths",
+  "version": "1.0.0",
+  "description": "Counting the number of miles of cycleways and footpaths",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape test/test.*.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iandees/miles-of-paths.git"
+  },
+  "author": "Ian Dees",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iandees/miles-of-paths/issues"
+  },
+  "homepage": "https://github.com/iandees/miles-of-paths#readme",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "cheap-ruler": "^2.4.1",
+    "tile-reduce": "^3.1.1"
+  }
+}
